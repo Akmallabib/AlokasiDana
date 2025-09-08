@@ -96,7 +96,7 @@ function handleLogin(e) {
   const password = document.getElementById("password").value;
   const errorMsg = document.getElementById("loginError");
 
-  if (username === "admin" && password === "admin") {
+  if (username === "akmal" && password === "alda") {
     localStorage.setItem("isLoggedIn", "true");
     showDashboard();
     errorMsg.classList.add("hidden");
@@ -812,3 +812,4 @@ style.textContent = `
 `;
 
 document.head.appendChild(style);
+
